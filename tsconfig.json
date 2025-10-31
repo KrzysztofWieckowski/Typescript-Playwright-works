@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",     
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["tests/**/*.ts", "pages/**/*.ts", "playwright.config.ts"]
+}
